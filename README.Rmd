@@ -3,9 +3,9 @@ title: "RNAseq_pipeline"
 author: "Ruben Dries"
 date: "24 Jan 2015"
 output: 
-  html_document:
+  md_document:
+    variant: markdown_github
     toc: true
-    theme: united
 ---
 
 <br><br>  
