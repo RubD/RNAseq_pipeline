@@ -1,0 +1,18 @@
+rawFastqDir: /Users/ruben/Dropbox/Projects/TestProject/Data/
+resultsDir: /Users/ruben/Dropbox/Projects/TestProject/Results/
+BowtieIndexPath: /Users/ruben/Documents/genomedata/Mus_musculus/UCSC//mm10//Sequence//Bowtie2Index/genome
+featureCountMethod: HTSeq
+AnnotationPath: /Users/ruben/Documents/genomedata/Mus_musculus/UCSC//mm10//Annotation/Genes/genes.gtf
+fastQCthreads: '1'
+qualityFastqDir: /Users/ruben/Dropbox/Projects/TestProject/Data/
+tophat2threads: '1'
+segmentMismatch: '1'
+segmentLength: '18'
+libType: fr-unstranded
+paralleljobs: '2'
+FCfeatureType: exon
+FCmetaType: gene_name
+FCthreads: '1'
+HTSfeatureType: exon
+HTSmetaType: gene_name
+
