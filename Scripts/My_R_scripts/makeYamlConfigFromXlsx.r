@@ -11,7 +11,9 @@ library(yaml)
 
 # load xlsx file for preconfigfile
 preconfig <- read.xlsx(file = xlsx_file, sheetIndex = 1, header = FALSE,
-                       rowIndex = c(2:6,9,12:16,19,22:24,27:28),colIndex = c(1,2), stringsAsFactors = F)
+                       rowIndex = c(2:6,9,12:16,19,22:24,27:28, 31:33),colIndex = c(1,2), stringsAsFactors = F)
+
+
 
 # function to create yaml file from xlsx file
 createYamlConfig <- function(preconfigfile, outputdirectory) {
@@ -30,6 +32,11 @@ createYamlConfig <- function(preconfigfile, outputdirectory) {
 # if output directory is not provided on command line, change it to working directory
 if(is.na(outputdir)) {
   outputdir <- getwd()
+}
+
+if(file.exists(paste0(outputdir,"/RNAseqConfig.yaml"))) {
+  print("RNAseq configuration file already exists (RNAseqConfig.yaml), delete or move this file first")
+  stop()
 }
 
 myresultlist <- createYamlConfig(preconfig, outputdir)
