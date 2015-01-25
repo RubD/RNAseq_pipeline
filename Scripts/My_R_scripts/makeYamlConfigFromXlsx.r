@@ -34,6 +34,7 @@ if(is.na(outputdir)) {
   outputdir <- getwd()
 }
 
+# if RNA seq configuration file already exists, print error message and stop
 if(file.exists(paste0(outputdir,"/RNAseqConfig.yaml"))) {
   print("RNAseq configuration file already exists (RNAseqConfig.yaml), delete or move this file first")
   stop()

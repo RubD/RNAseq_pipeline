@@ -1,12 +1,12 @@
-Status	smallsample1.fastq_tophat/accepted_hits.bam	smallsample2.fastq_tophat/accepted_hits.bam
-Assigned	24577	26417
-Unassigned_Ambiguity	286	312
-Unassigned_MultiMapping	71043	73090
-Unassigned_NoFeatures	4787	4787
-Unassigned_Unmapped	0	0
-Unassigned_MappingQuality	0	0
-Unassigned_FragementLength	0	0
-Unassigned_Chimera	0	0
-Unassigned_Secondary	0	0
-Unassigned_Nonjunction	0	0
-Unassigned_Duplicate	0	0
+Status	smallZeb2_Ctrl_D0_rep1.fastq_tophat/accepted_hits.bam	smallZeb2_Ctrl_D0_rep2.fastq_tophat/accepted_hits.bam	smallZeb2_KO_D0_rep1.fastq_tophat/accepted_hits.bam	smallZeb2_KO_D0_rep2.fastq_tophat/accepted_hits.bam
+Assigned	24577	26417	26950	26988
+Unassigned_Ambiguity	286	312	300	298
+Unassigned_MultiMapping	71043	73090	70383	72835
+Unassigned_NoFeatures	4787	4787	5495	6573
+Unassigned_Unmapped	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0
+Unassigned_FragementLength	0	0	0	0
+Unassigned_Chimera	0	0	0	0
+Unassigned_Secondary	0	0	0	0
+Unassigned_Nonjunction	0	0	0	0
+Unassigned_Duplicate	0	0	0	0

@@ -1,10 +1,10 @@
-rawFastqDir: /Users/ruben/Dropbox/Projects/TestProject/Data/
-resultsDir: /Users/ruben/Dropbox/Projects/TestProject/Results/
+rawFastqDir: /Users/ruben/Dropbox/Projects/RNAseqPipeline/Data/
+resultsDir: /Users/ruben/Dropbox/Projects/RNAseqPipeline/Results/
 BowtieIndexPath: /Users/ruben/Documents/genomedata/Mus_musculus/UCSC//mm10//Sequence//Bowtie2Index/genome
-featureCountMethod: HTSeq
+featureCountMethod: featureCounts
 AnnotationPath: /Users/ruben/Documents/genomedata/Mus_musculus/UCSC//mm10//Annotation/Genes/genes.gtf
 fastQCthreads: '1'
-qualityFastqDir: /Users/ruben/Dropbox/Projects/TestProject/Data/
+qualityFastqDir: /Users/ruben/Dropbox/Projects/RNAseqPipeline/Data/
 tophat2threads: '1'
 segmentMismatch: '1'
 segmentLength: '18'
@@ -15,4 +15,7 @@ FCmetaType: gene_name
 FCthreads: '1'
 HTSfeatureType: exon
 HTSmetaType: gene_name
+countTableOrigin: featureCounts
+CtrlTag: Ctrl
+TreatmentTag: KO
 

@@ -1,0 +1,23 @@
+
+[2015-01-25 18:13:09] Beginning TopHat run (v2.0.13)
+-----------------------------------------------
+[2015-01-25 18:13:09] Checking for Bowtie
+		  Bowtie version:	 2.2.4.0
+[2015-01-25 18:13:09] Checking for Bowtie index files (genome)..
+[2015-01-25 18:13:09] Checking for reference FASTA file
+[2015-01-25 18:13:09] Generating SAM header for /Users/ruben/Documents/genomedata/Mus_musculus/UCSC//mm10//Sequence//Bowtie2Index/genome
+[2015-01-25 18:13:40] Preparing reads
+	 left reads: min. length=36, max. length=36, 49980 kept reads (20 discarded)
+[2015-01-25 18:13:42] Mapping left_kept_reads to genome genome with Bowtie2 
+[2015-01-25 18:14:06] Mapping left_kept_reads_seg1 to genome genome with Bowtie2 (1/2)
+[2015-01-25 18:14:31] Mapping left_kept_reads_seg2 to genome genome with Bowtie2 (2/2)
+[2015-01-25 18:14:51] Searching for junctions via segment mapping
+[2015-01-25 18:18:18] Retrieving sequences for splices
+[2015-01-25 18:20:50] Indexing splices
+[2015-01-25 18:20:53] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/2)
+[2015-01-25 18:20:53] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/2)
+[2015-01-25 18:20:53] Joining segment hits
+[2015-01-25 18:23:33] Reporting output tracks
+-----------------------------------------------
+[2015-01-25 18:26:19] A summary of the alignment counts can be found in /Users/ruben/Dropbox/Projects/RNAseqPipeline/Results//OutputTophat2/smallZeb2_KO_D0_rep1.fastq_tophat/align_summary.txt
+[2015-01-25 18:26:19] Run complete: 00:13:09 elapsed

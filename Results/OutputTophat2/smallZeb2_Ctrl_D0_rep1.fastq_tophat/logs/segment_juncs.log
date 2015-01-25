@@ -1,0 +1,37 @@
+segment_juncs v2.0.13 (4309)
+---------------------------
+[samopen] SAM header is present: 22 sequences.
+Loading reference sequences...
+	Loading chr10...done
+	Loading chr11...done
+	Loading chr12...done
+	Loading chr13...done
+	Loading chr14...done
+	Loading chr15...done
+	Loading chr16...done
+	Loading chr17...done
+	Loading chr18...done
+	Loading chr19...done
+	Loading chr1...done
+	Loading chr2...done
+	Loading chr3...done
+	Loading chr4...done
+	Loading chr5...done
+	Loading chr6...done
+	Loading chr7...done
+	Loading chr8...done
+	Loading chr9...done
+	Loading chrM...done
+	Loading chrX...done
+	Loading chrY...done
+	Loading ...done
+>> Performing segment-search:
+Loading left segment hits...
+done.
+	found 682 potential split-segment junctions
+	found 0 potential small deletions
+	found 0 potential small insertions
+Reported 682 total potential splices
+Reporting 0 potential deletions...
+Reporting 0 potential insertions...
+Reporting potential fusions...
